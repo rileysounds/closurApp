@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8394BD0F25A6872100A12890 /* UpcomingShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8394BD0E25A6872100A12890 /* UpcomingShowsViewController.swift */; };
 		8398C5D725A5E75700640542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8398C5D625A5E75700640542 /* AppDelegate.swift */; };
 		8398C5D925A5E75700640542 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8398C5D825A5E75700640542 /* SceneDelegate.swift */; };
 		8398C5DB25A5E75700640542 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8398C5DA25A5E75700640542 /* ViewController.swift */; };
@@ -14,9 +15,16 @@
 		8398C5E125A5E75700640542 /* ClosurApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8398C5DF25A5E75700640542 /* ClosurApp.xcdatamodeld */; };
 		8398C5E325A5E75900640542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8398C5E225A5E75900640542 /* Assets.xcassets */; };
 		8398C5E625A5E75900640542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8398C5E425A5E75900640542 /* LaunchScreen.storyboard */; };
+		8398C5F225A646DC00640542 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8398C5F125A646DC00640542 /* AudioPlayer.swift */; };
+		8398C5F625A6598C00640542 /* Glide.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8398C5F525A6598C00640542 /* Glide.mp3 */; };
+		8398C5F925A65E3000640542 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8398C5F825A65E3000640542 /* Helpers.swift */; };
+		8398C60025A668B400640542 /* sunsetImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8398C5FF25A668B400640542 /* sunsetImage.jpg */; };
+		8398C62B25A681DE00640542 /* SoundcloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8398C62A25A681DE00640542 /* SoundcloudViewController.swift */; };
+		8398C62E25A6837900640542 /* TwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8398C62D25A6837900640542 /* TwitchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8394BD0E25A6872100A12890 /* UpcomingShowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingShowsViewController.swift; sourceTree = "<group>"; };
 		8398C5D325A5E75700640542 /* ClosurApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClosurApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8398C5D625A5E75700640542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8398C5D825A5E75700640542 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,12 @@
 		8398C5E225A5E75900640542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8398C5E525A5E75900640542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8398C5E725A5E75900640542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8398C5F125A646DC00640542 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		8398C5F525A6598C00640542 /* Glide.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Glide.mp3; sourceTree = "<group>"; };
+		8398C5F825A65E3000640542 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		8398C5FF25A668B400640542 /* sunsetImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunsetImage.jpg; sourceTree = "<group>"; };
+		8398C62A25A681DE00640542 /* SoundcloudViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundcloudViewController.swift; sourceTree = "<group>"; };
+		8398C62D25A6837900640542 /* TwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +72,16 @@
 		8398C5D525A5E75700640542 /* ClosurApp */ = {
 			isa = PBXGroup;
 			children = (
+				8398C5FF25A668B400640542 /* sunsetImage.jpg */,
+				8398C5F525A6598C00640542 /* Glide.mp3 */,
 				8398C5D625A5E75700640542 /* AppDelegate.swift */,
 				8398C5D825A5E75700640542 /* SceneDelegate.swift */,
 				8398C5DA25A5E75700640542 /* ViewController.swift */,
+				8398C5F825A65E3000640542 /* Helpers.swift */,
+				8398C5F125A646DC00640542 /* AudioPlayer.swift */,
+				8398C62A25A681DE00640542 /* SoundcloudViewController.swift */,
+				8398C62D25A6837900640542 /* TwitchViewController.swift */,
+				8394BD0E25A6872100A12890 /* UpcomingShowsViewController.swift */,
 				8398C5DC25A5E75700640542 /* Main.storyboard */,
 				8398C5E225A5E75900640542 /* Assets.xcassets */,
 				8398C5E425A5E75900640542 /* LaunchScreen.storyboard */,
@@ -127,6 +148,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8398C60025A668B400640542 /* sunsetImage.jpg in Resources */,
+				8398C5F625A6598C00640542 /* Glide.mp3 in Resources */,
 				8398C5E625A5E75900640542 /* LaunchScreen.storyboard in Resources */,
 				8398C5E325A5E75900640542 /* Assets.xcassets in Resources */,
 				8398C5DE25A5E75700640542 /* Main.storyboard in Resources */,
@@ -141,9 +164,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8398C5DB25A5E75700640542 /* ViewController.swift in Sources */,
+				8398C5F925A65E3000640542 /* Helpers.swift in Sources */,
+				8394BD0F25A6872100A12890 /* UpcomingShowsViewController.swift in Sources */,
 				8398C5D725A5E75700640542 /* AppDelegate.swift in Sources */,
+				8398C5F225A646DC00640542 /* AudioPlayer.swift in Sources */,
+				8398C62B25A681DE00640542 /* SoundcloudViewController.swift in Sources */,
 				8398C5D925A5E75700640542 /* SceneDelegate.swift in Sources */,
 				8398C5E125A5E75700640542 /* ClosurApp.xcdatamodeld in Sources */,
+				8398C62E25A6837900640542 /* TwitchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
